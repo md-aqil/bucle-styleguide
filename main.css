@@ -1,0 +1,28 @@
+.sidebar {
+    position:fixed;
+}
+body {
+    background: #F4F3EC;
+}
+
+.w-\[16\%\] {
+    width: 16%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.main-content {
+    margin-left: 16% !important;
+
+}
+.header {
+    position: fixed;
+    width: 84%;
+    left: 16%;
+}
+.content-item {
+    margin-top:150px;
+}
