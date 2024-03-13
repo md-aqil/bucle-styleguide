@@ -20,13 +20,13 @@
 
   @font-face {
     font-family: 'Gilroy';
-    src: url('path/to/Gilroy-Bold.ttf') format('truetype');
+    src: url('./font/Gilroy-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('path/to/Gilroy-BoldItalic.ttf') format('truetype');
+    src: url('./font/Gilroy-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -50,6 +50,7 @@ h1, h2, h3, h4 {
 body {
     background: #F4F3EC;
     font-family: "Quicksand", sans-serif;
+    color:#333;
 
 }
 
@@ -79,4 +80,5 @@ body {
 }
 .card {
     border-radius: 0 !important;
+    height: 100%;
 }
