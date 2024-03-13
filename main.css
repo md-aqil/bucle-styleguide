@@ -24,5 +24,8 @@ body {
     left: 16%;
 }
 .content-item {
-    margin-top:150px;
+    margin-top:20px;
+}
+.hero-content {
+    font-size: 18px;
 }
